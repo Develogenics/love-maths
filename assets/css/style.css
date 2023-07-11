@@ -116,7 +116,7 @@ body {
     font-size: 1rem;
     color: #445361;
     position: relative;
-    left: -0.5em;
+    left: -0.5rem;
 }
 
 .btn--blue {
@@ -176,6 +176,53 @@ body {
 }
 
 /* --------- Media queries */
+
+@media (max-width: 924px) {
+    .controls-area {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .btn--big {
+        margin: 10px;
+    }
+
+    .question-area {
+        padding: 10% 0;
+        width: 100%;
+    }
+
+    .question-area span {
+        padding: 0;
+    }
+
+    .answer-message {
+        display: block;
+    }
+
+    #answer-box {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .btn--gray {
+        margin-top: 0;
+    }
+
+    .score-area {
+        width: 100%;
+    }
+
+    .scores {
+        margin: 0.5em auto;
+        display: block;
+        padding: 5px;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+}
 
 @media (max-width: 414px) {
     .controls-area {
